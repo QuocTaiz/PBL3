@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Quicksand',sans-serif;
+}
+
+#header{
+    background-color: #000;
+    height: 46px;
+}
+
+.imglogo{
+    display: inline-block;
+}
+
+#logo{
+    display: inline-block;
+    width: 144px;
+    height: 46px;
+      
+    padding-left: 20px;
+}
+
+#header .itemlogin{
+    float: right;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 20px;
+    line-height: 46px;
+}
+
+#header .itemlogin:hover{
+    background: gray;
+}
+
+#nav{
+    position:fixed;
+    display: block;
+    background:aliceblue;
+    width: 100%;
+    height: 46px;
+    box-shadow: 0px 0px 5px gray ;
+}
+
+#nav .nav-career{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    line-height: 46px;
+    margin-left: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#nav #taohoso{
+    float: right;
+    margin-right: 57px; 
+    font-weight: 550;
+}
+
+#nav a:hover{
+    color:gray;
+}
+
+#container-search{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(76, 180, 255);
+    margin: 60px auto 30px ;
+    border-radius: 5px;
+    display: flex;
+}
+
+#container-search div{
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#container-search .box-txt-search{
+    font-size: 20px;
+    width: 26% !important;
+}
+
+#icon-search{
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+#txt-search{
+    position: absolute;
+    margin: 15px 15px;
+    font-size: 17px;
+    outline: none;
+    border: none ;
+    width: 17%;
+}
+
+#container-search .btn-search{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    font-weight: 600;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#box-company{
+    background-color:aliceblue;
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#box-company h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin: 14px 0px 0 20px;
+}
+
+.list-company{
+    display: flex;
+    text-align: center;
+}
+
+.list-company a{
+    text-decoration: none;
+    color: #000;
+}
+
+#box-company .item-company {
+    background-color: #fff;
+    width: 17%;
+    height: 122px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+#box-company .item-company:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+.list-company img{
+    display: block;
+    min-height: 70px;
+    margin:auto;
+}
+
+.list-company p{
+    display: inline-block;
+    margin-top: 20px;
+}
